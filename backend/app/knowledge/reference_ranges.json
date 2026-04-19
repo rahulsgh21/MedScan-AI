@@ -1,0 +1,63 @@
+{
+  "hemoglobin": {
+    "name": "Hemoglobin (Hb)",
+    "category": "CBC",
+    "unit": "g/dL",
+    "ranges": {
+      "adult_male": {"min": 13.0, "max": 17.0},
+      "adult_female": {"min": 12.0, "max": 15.5}
+    },
+    "note": "Indian averages often trend on the lower side due to widespread dietary iron deficiency.",
+    "sources": ["WHO 2024", "MedlinePlus"]
+  },
+  "total_cholesterol": {
+    "name": "Total Cholesterol",
+    "category": "Lipid Profile",
+    "unit": "mg/dL",
+    "ranges": {
+      "all": {"min": null, "max": 200.0}
+    },
+    "note": "Desirable is <200. 200-239 is borderline high. >=240 is high risk.",
+    "sources": ["AHA (American Heart Association)"]
+  },
+  "triglycerides": {
+    "name": "Triglycerides",
+    "category": "Lipid Profile",
+    "unit": "mg/dL",
+    "ranges": {
+      "all": {"min": null, "max": 150.0}
+    },
+    "note": "Highly sensitive to recent meals and alcohol consumption.",
+    "sources": ["AHA"]
+  },
+  "fasting_blood_sugar": {
+    "name": "Fasting Blood Sugar",
+    "category": "Blood Sugar",
+    "unit": "mg/dL",
+    "ranges": {
+      "all": {"min": 70.0, "max": 100.0}
+    },
+    "note": "100-125 is prediabetes. >=126 indicates diabetes.",
+    "sources": ["ADA (American Diabetes Association)", "ICMR"]
+  },
+  "hba1c": {
+    "name": "Glycosylated Hemoglobin (HbA1c)",
+    "category": "Blood Sugar",
+    "unit": "%",
+    "ranges": {
+      "all": {"min": null, "max": 5.7}
+    },
+    "note": "A 3-month average of blood sugar. 5.7-6.4 is prediabetes.",
+    "sources": ["ADA"]
+  },
+  "tsh": {
+    "name": "Thyroid Stimulating Hormone (TSH)",
+    "category": "Thyroid",
+    "unit": "mIU/L",
+    "ranges": {
+      "adult": {"min": 0.4, "max": 4.0}
+    },
+    "note": "Testing early morning is best. High TSH indicates underactive thyroid (hypothyroidism).",
+    "sources": ["American Thyroid Association"]
+  }
+}
